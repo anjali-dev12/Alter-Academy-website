@@ -192,7 +192,7 @@ body {
   gap: 50px;
   width: 85%;
   margin: 60px auto;
-  align-items: center;
+   align-items: flex-start;
 }
 
 /* LEFT */
@@ -387,18 +387,18 @@ body {
     padding: 15px 20px;
   }
   /* HERO LAYOUT */
-  .hero-content {
+   .hero-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
     gap: 35px;
     width: 90%;
     margin: 40px auto;
-  }
+  } 
 
-  .hero-left {
+   .hero-left {
     width: 100%;
-  }
+  } 
 
   /* TEXT */
   .hero-title {
@@ -466,11 +466,11 @@ body {
     width: 200px;
   }
   /* FORM CENTER */
-  .hero-form-card {
+  /* .hero-form-card {
     width: 100%;
     max-width: 420px;
     margin: 0 auto;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -483,7 +483,7 @@ body {
  .hero::before {
     background: rgba(0, 0, 0, 0.5);
   }
-} 
+ 
   
   .hero-content {
     width: 95%;
@@ -544,22 +544,24 @@ body {
     width: 90%;
     max-width: 300px;
   }
+
   .hero-form-card {
     width: 90%;
-    padding: 20px;
+    max-width: 290px;
+    margin: 0 auto;
   }
-
+  
   .hero-form-card p{
   color: #fff;
   font-size: 20px;
   }
 
    
-.form-row {
+/* .form-row {
   margin-top: 12px;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .form-row .level {
   font-size: 18px;
@@ -576,7 +578,7 @@ body {
   color: #64748b;
 }
 
-
+}
 
 
 /* STRIP */
